@@ -31,5 +31,5 @@ jobs:
         path: ./artifacts
 
     - name: Read File
-      run: at ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
         
